@@ -77,9 +77,12 @@ export interface Copy {
     };
   };
   footer: {
+    emailLink: string;
     copyright: (year: number) => string;
   };
 }
+
+export const CONTACT_EMAIL = "vitracosmetics@gmx.ch";
 
 export const CANTONS = [
   "AG", "AI", "AR", "BE", "BL", "BS", "FR", "GE", "GL", "GR",
@@ -253,6 +256,7 @@ export const copy: Copy = {
   },
 
   footer: {
+    emailLink: "Email us",
     copyright: (year: number) => `© ${year}. All rights reserved.`,
   },
 };

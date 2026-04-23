@@ -123,6 +123,7 @@ export const copy: Copy = {
   },
 
   footer: {
+    emailLink: "Scriveteci",
     copyright: (year: number) => `© ${year}. Tutti i diritti riservati.`,
   },
 };
