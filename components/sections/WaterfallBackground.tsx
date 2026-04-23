@@ -5,7 +5,7 @@ export function WaterfallBackground() {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <Image
-        src={asset("/hero-best.png")}
+        src={asset("/hero-best.webp")}
         alt=""
         fill
         priority

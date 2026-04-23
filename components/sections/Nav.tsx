@@ -199,12 +199,12 @@ export function Nav() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setMenuOpen(false)}
-                className="text-[16px] uppercase tracking-[0.14em] text-ink font-medium"
+                className="block py-3 text-[16px] uppercase tracking-[0.14em] text-ink font-medium min-h-[44px]"
               >
                 {l.label}
               </a>
             ))}
-            <div className="flex items-center gap-5 pt-2 border-t border-line">
+            <div className="flex items-center gap-2 pt-2 border-t border-line">
               {LOCALES.map((l) => (
                 <button
                   key={l}
@@ -214,8 +214,10 @@ export function Nav() {
                     setMenuOpen(false);
                   }}
                   className={cn(
-                    "text-[12px] uppercase tracking-[0.18em] transition-colors",
-                    l === locale ? "text-ink" : "text-ink-soft hover:text-ink",
+                    "inline-flex items-center justify-center min-w-[44px] min-h-[44px] px-3 rounded-md text-[12px] uppercase tracking-[0.18em] transition-colors",
+                    l === locale
+                      ? "text-ink bg-bg-soft"
+                      : "text-ink-soft hover:text-ink hover:bg-bg-soft",
                   )}
                 >
                   {LOCALE_LABELS[l]}
