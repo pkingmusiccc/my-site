@@ -57,7 +57,7 @@ export const copy: Copy = {
 
   lineup: {
     eyebrow: "Les gammes",
-    headline: "Neuf gammes. Une philosophie.",
+    headline: "La philosophie de TAO: la beauté, c'est la santé.",
     lead: "Pour chaque type de peau, chaque indication, chaque rituel, toujours formulé avec le même soin.",
     ranges: [
       { index: "01", name: "TAO Clean", description: "Un nettoyage respectueux de la barrière cutanée.", image: "/products/01-clean.jpg" },

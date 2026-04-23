@@ -57,7 +57,7 @@ export const copy: Copy = {
 
   lineup: {
     eyebrow: "Le linee",
-    headline: "Nove linee. Una filosofia.",
+    headline: "La filosofia di TAO: la bellezza è salute.",
     lead: "Per ogni tipo di pelle, ogni indicazione, ogni rituale, sempre formulato con la stessa cura.",
     ranges: [
       { index: "01", name: "TAO Clean", description: "Detersione che rispetta la barriera cutanea.", image: "/products/01-clean.jpg" },

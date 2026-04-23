@@ -184,7 +184,7 @@ export const copy: Copy = {
 
   lineup: {
     eyebrow: "The line-up",
-    headline: "Nine ranges. One philosophy.",
+    headline: "TAO's philosophy: Beauty is Health.",
     lead: "For every skin type, every indication, every ritual, always formulated with the same care.",
     ranges: [
       { index: "01", name: "TAO Clean", description: "Cleansing that respects the skin barrier.", image: "/products/01-clean.jpg" },
