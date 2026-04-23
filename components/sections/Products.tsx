@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { useCopy } from "@/lib/locale";
+import { asset } from "@/lib/asset";
 
 export function Products() {
   const copy = useCopy();
@@ -39,7 +40,7 @@ export function Products() {
                   style={{ aspectRatio: "1 / 1" }}
                 >
                   <Image
-                    src={r.image}
+                    src={asset(r.image)}
                     alt={`${r.name}, ${r.description}`}
                     fill
                     sizes="(max-width: 767px) 50vw, (max-width: 1279px) 33vw, 25vw"

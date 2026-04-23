@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 
 export function WaterfallBackground() {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <Image
-        src="/hero-best.png"
+        src={asset("/hero-best.png")}
         alt=""
         fill
         priority

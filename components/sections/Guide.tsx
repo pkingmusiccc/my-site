@@ -74,7 +74,7 @@ export function Guide() {
           <p className="eyebrow">{copy.partner.endorsement}</p>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/tao-logo.svg"
+            src={asset("/tao-logo.svg")}
             alt="TAO Cosmetics"
             width={90}
             height={30}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/cn";
+import { asset } from "@/lib/asset";
 
 const ASPECT = 610 / 470; // source image aspect ratio
 
@@ -19,7 +20,7 @@ export function LogoMark({
   const width = Math.round(height * ASPECT);
   return (
     <Image
-      src="/leaf.png"
+      src={asset("/leaf.png")}
       alt=""
       width={width}
       height={height}
