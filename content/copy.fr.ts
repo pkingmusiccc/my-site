@@ -12,7 +12,7 @@ export const copy: Copy = {
   },
 
   hero: {
-    eyebrow: "Soin dermatologique.",
+    eyebrow: "La beauté, c'est la santé.",
     headline: "Des traitements guidés par la science qui distinguent votre pratique.",
     sub: "TAO Cosmetics allie précision clinique et efficacité naturelle. Réservé aux esthéticiennes qualifiées, aux dermatologues et aux instituts professionnels en Suisse.",
     primaryCta: { label: "Prendre rendez-vous", href: "#ready" },

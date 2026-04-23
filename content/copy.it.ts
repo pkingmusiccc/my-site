@@ -12,7 +12,7 @@ export const copy: Copy = {
   },
 
   hero: {
-    eyebrow: "Cosmesi dermatologica.",
+    eyebrow: "La bellezza è salute.",
     headline: "Trattamenti guidati dalla scienza che distinguono il suo studio.",
     sub: "TAO Cosmetics unisce precisione clinica ed efficacia naturale. Disponibile esclusivamente presso estetiste qualificate, dermatologi e istituti professionali in Svizzera.",
     primaryCta: { label: "Fissare un colloquio", href: "#ready" },

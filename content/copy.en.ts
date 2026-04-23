@@ -112,7 +112,7 @@ export const copy: Copy = {
   },
 
   hero: {
-    eyebrow: "Dermatological skincare.",
+    eyebrow: "Beauty is Health.",
     headline: "Science-led treatments that set your practice apart.",
     sub: "TAO Cosmetics pairs clinical precision with natural efficacy. Available only to qualified aestheticians, dermatologists, and professional institutes across Switzerland.",
     primaryCta: { label: "Book a call", href: "#ready" },

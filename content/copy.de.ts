@@ -12,7 +12,7 @@ export const copy: Copy = {
   },
 
   hero: {
-    eyebrow: "Dermatologische Hautpflege.",
+    eyebrow: "Schönheit ist Gesundheit.",
     headline: "Wissenschaftlich geführte Behandlungen, die Ihre Praxis abheben.",
     sub: "TAO Cosmetics verbindet klinische Präzision mit natürlicher Wirksamkeit. Erhältlich ausschliesslich für qualifizierte Kosmetikerinnen, Dermatologen und Fachinstitute in der Schweiz.",
     primaryCta: { label: "Gespräch buchen", href: "#ready" },
