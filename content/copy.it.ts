@@ -65,10 +65,9 @@ export const copy: Copy = {
       { index: "03", name: "TAO Dry", description: "Cura nutriente per pelli secche.", image: "/products/03-dry.jpg" },
       { index: "04", name: "TAO Glossy", description: "Luminosità e idratazione profonda.", image: "/products/04-glossy.jpg" },
       { index: "05", name: "TAO More", description: "Attivi mirati per esigenze specifiche.", image: "/products/05-more.jpg" },
-      { index: "06", name: "TAO Man", description: "Cura che comprende la pelle maschile.", image: "/products/06-man.jpg" },
-      { index: "07", name: "TAO Body", description: "Un rituale dal collo ai piedi.", image: "/products/07-body.jpg" },
-      { index: "08", name: "TAO Sun", description: "Protezione e cura in un solo gesto.", image: "/products/08-sun.jpg" },
-      { index: "09", name: "Epiceutical®", description: "La linea anti-età per pelli esigenti.", image: "/products/09-epiceutical.jpg" },
+      { index: "06", name: "TAO Body", description: "Un rituale dal collo ai piedi.", image: "/products/07-body.jpg" },
+      { index: "07", name: "TAO Sun", description: "Protezione e cura in un solo gesto.", image: "/products/08-sun.jpg" },
+      { index: "08", name: "Epiceutical®", description: "La linea anti-età per pelli esigenti.", image: "/products/09-epiceutical.jpg" },
     ],
   },
 

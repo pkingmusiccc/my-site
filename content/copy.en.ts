@@ -192,10 +192,9 @@ export const copy: Copy = {
       { index: "03", name: "TAO Dry", description: "Nourishing care for dry skin.", image: "/products/03-dry.jpg" },
       { index: "04", name: "TAO Glossy", description: "Radiance and deep hydration.", image: "/products/04-glossy.jpg" },
       { index: "05", name: "TAO More", description: "Targeted actives for specific needs.", image: "/products/05-more.jpg" },
-      { index: "06", name: "TAO Man", description: "Skincare that understands men's skin.", image: "/products/06-man.jpg" },
-      { index: "07", name: "TAO Body", description: "A ritual from neck to toes.", image: "/products/07-body.jpg" },
-      { index: "08", name: "TAO Sun", description: "Protection and care in a single step.", image: "/products/08-sun.jpg" },
-      { index: "09", name: "Epiceutical®", description: "The anti-ageing line for demanding skin.", image: "/products/09-epiceutical.jpg" },
+      { index: "06", name: "TAO Body", description: "A ritual from neck to toes.", image: "/products/07-body.jpg" },
+      { index: "07", name: "TAO Sun", description: "Protection and care in a single step.", image: "/products/08-sun.jpg" },
+      { index: "08", name: "Epiceutical®", description: "The anti-ageing line for demanding skin.", image: "/products/09-epiceutical.jpg" },
     ],
   },
 
