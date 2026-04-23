@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#FFFFFF"/>
+  <text
+    x="16"
+    y="22"
+    text-anchor="middle"
+    fill="#0F1520"
+    font-family="Georgia, serif"
+    font-size="22"
+    font-weight="300"
+    letter-spacing="-0.5"
+  >V</text>
+  <circle cx="24" cy="22" r="1.5" fill="#A9B7C6"/>
+</svg>
