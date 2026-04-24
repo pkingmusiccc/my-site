@@ -10,8 +10,8 @@ type Props = {
 
 /**
  * Quiet rectangular frame around the "exclusive Swiss distributor"
- * endorsement and the TAO wordmark. Hairline border, no fill, no relief —
- * reads as a credential, not a trophy.
+ * endorsement and the TAO wordmark. Hairline border, soft floating shadow,
+ * grows slightly on hover.
  */
 export function DistributorBadge({
   label,
@@ -20,7 +20,7 @@ export function DistributorBadge({
 }: Props) {
   return (
     <div
-      className="relative inline-flex items-center justify-center select-none border border-line-strong"
+      className="distributor-badge relative inline-flex items-center justify-center select-none border border-line-strong bg-bg"
       style={{ width, height, borderRadius: 4 }}
       aria-label={label}
       role="img"
