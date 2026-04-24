@@ -3,6 +3,7 @@
 import { Reveal } from "@/components/motion/Reveal";
 import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { Leaf } from "@/components/ui/Leaf";
+import { DistributorBadge } from "@/components/ui/DistributorBadge";
 import { useCopy } from "@/lib/locale";
 import { asset } from "@/lib/asset";
 
@@ -69,18 +70,9 @@ export function Guide() {
 
         <Reveal
           delay={0.3}
-          className="mt-16 md:mt-24 pt-10 border-t border-line flex flex-col items-center gap-4"
+          className="mt-16 md:mt-24 pt-14 border-t border-line flex flex-col items-center"
         >
-          <p className="eyebrow">{copy.partner.endorsement}</p>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={asset("/tao-logo.svg")}
-            alt="TAO Cosmetics"
-            width={90}
-            height={30}
-            className="opacity-70"
-            style={{ height: "22px", width: "auto" }}
-          />
+          <DistributorBadge label={copy.partner.endorsement} />
         </Reveal>
       </div>
     </section>
